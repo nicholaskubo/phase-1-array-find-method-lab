@@ -61,19 +61,12 @@ const record = [
   ]
 
 
-
-function superbowlWin (){
-    let bigDub = record.find((win) => {
+    let superbowlWinn = record.find((win) => {
     console.log(win)
     console.log(win.result == `W`)
-    return win.result ==`W`   
-      })
-      if (bigDub != undefined) {
-        return bigDub.year
-      }
-}
+    return win.result ==`W` 
+ })
+superbowlWin = superbowlWinn.year
+ console.log(superbowlWin);
 
-
-
-    console.log(superbowlWin());
-
+ 

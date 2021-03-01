@@ -59,21 +59,20 @@ const record = [
     { year: "1961", result: "N/A"},
     { year: "1960", result: "N/A"}
   ]
-
-
-
-function superbowlWin (){
-    let bigDub = record.find((win) => {
+function superW (bigArray) {
+    let superbowlWin = record.find((win) => {
     console.log(win)
     console.log(win.result == `W`)
-    return win.result ==`W`   
-      })
-      if (bigDub != undefined) {
-        return bigDub.year
-      }
-}
+    return win.year ==`W` 
+ })}
+
+console.log(superbowlWin); 
 
 
+// function superbowlWin (dub) {
+//   return dub.result === `W`;
+// }
 
-    console.log(superbowlWin());
+// console.log(record.find(superbowlWin).year) 
 
+// }

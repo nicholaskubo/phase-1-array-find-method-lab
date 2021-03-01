@@ -60,20 +60,34 @@ const record = [
     { year: "1960", result: "N/A"}
   ]
 
+    // let bigDub = record.find((win) => {
+    // console.log(win)
+    // console.log(win.result == `W`)
+    // return win.result ==`W`   
+    // })
+
+ 
+
+ function superbowlWin (record.find((bigWin) => {
+   if (bigWin.result === `W`) 
+   return bigWin.year
+ }) 
+ 
+    console.log(superbowlWin);
+
+console.log(bigDub) 
 
 
-function superbowlWin (){
-    let bigDub = record.find((win) => {
-    console.log(win)
-    console.log(win.result == `W`)
-    return win.result ==`W`   
-      })
-      if (bigDub != undefined) {
-        return bigDub.year
-      }
-}
 
+ // // function superbowlWin (dub) {
+// //   return dub.result === `W`;
+// // }
 
+// // console.log(record.find(superbowlWin).year) 
 
-    console.log(superbowlWin());
-
+// const superbowlWin = bigDub => {
+//   record.find((record.result === `W`)
+//   return record.result === `W`
+// })
+  
+// console.log(superbowlWin(record))

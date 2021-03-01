@@ -60,20 +60,6 @@ const record = [
     { year: "1960", result: "N/A"}
   ]
 
-
-
-function superbowlWin (){
-    let bigDub = record.find((win) => {
-    console.log(win)
-    console.log(win.result == `W`)
-    return win.result ==`W`   
-      })
-      if (bigDub != undefined) {
-        return bigDub.year
-      }
-}
-
-
-
-    console.log(superbowlWin());
-
+  let superbowlWin = record.find(result) => {
+      return year = 
+  }
